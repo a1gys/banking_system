@@ -1,3 +1,12 @@
+use std::io::{self, Write};
+
+mod program;
+
+
 fn main() {
-    println!("Hello, world!");
+    println!("Welcome to Bank\n");
+
+    program::display_page();
+
+
 }
