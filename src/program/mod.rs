@@ -1,8 +1,11 @@
-mod process;
+mod operations;
 
-use process::*;
+use operations::*;
 
 use std::io::{self, Write};
+use std::{env, error::Error, ffi::OsString, fs::File, process};
+use csv;
+
 
 pub fn program_start() -> io::Result<()> {
     let mut input: String = String::new();
@@ -53,4 +56,3 @@ pub fn display_page() -> io::Result<()> {
     Ok(())
 }
 
-//pub fn display_option(option: )

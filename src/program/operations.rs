@@ -1,5 +1,5 @@
 pub fn withdraw_cash() {
-    println!("Not implemented yet!");
+    println!("The option is not available currently!");
 }
 
 pub fn deposit_cash() {
